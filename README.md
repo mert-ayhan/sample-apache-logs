@@ -1,2 +1,12 @@
 # sample-apache-logs
- Sample Apache Logs Script
+ It prints sample apache logs to a file.
+ ```
+ usage: ./run.sh [-h] [-f file_name] [-a log_amount=1] [-s sleep_time=0]
+ where:
+    -h  show this help text
+    -f  file name
+    -a  log amount (default:1)
+    -s  sleep time (default:0)
+	
+ info: file will be written into /var/log/[file_name]
+ ```
